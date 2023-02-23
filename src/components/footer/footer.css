@@ -1,0 +1,28 @@
+.footer__wrapper {
+  padding: 50px 278px;
+}
+.footer__links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.footer__top {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer__item {
+  margin-bottom: 15px;
+  color: #808080;
+}
+
+.footer__btn {
+  padding: 10px 15px;
+  color: #808080;
+  border: 1px solid #808080;
+}
+.footer__text {
+  margin-top: 20px;
+  color: #808080;
+}

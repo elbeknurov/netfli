@@ -1,0 +1,75 @@
+#app {
+  height: 100%;
+}
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 285px;
+  height: 160px;
+  object-fit: cover;
+}
+
+.popular {
+  background-image: url("../img/MoviePoster.png");
+  width: 100%;
+  height: 800px;
+}
+.popular__wrapper {
+  padding-top: 200px;
+}
+
+.popular__img {
+  margin-bottom: 20px;
+}
+.popular__title {
+  margin-bottom: 15px;
+  color: #fff;
+}
+.popular__text {
+  margin-bottom: 15px;
+
+  width: 636px;
+  color: #fff;
+}
+.popular__btn {
+  margin-bottom: 15px;
+  display: flex;
+  gap: 15px;
+}
+.popular__play {
+  padding: 17px 30px;
+  background: #ffffff;
+  border-radius: 4px;
+  color: black;
+}
+.popular__aboutbtn {
+  padding: 17px 30px;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  color: #fff;
+}
+.popular__item {
+  margin-bottom: 10px;
+  color: #fff;
+}
